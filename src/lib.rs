@@ -28,3 +28,20 @@ extern {
     fn atexit(callback: extern fn()) -> c_int;
 
 }
+
+#[allow(unused_imports)]
+mod tests {
+
+    use super::add_shutdown_hook;
+
+    #[test]
+    fn test_add_shutdown_hook_should_work() {
+        assert!(add_shutdown_hook(get_in_the_bowl));
+    }
+    
+    #[allow(dead_code)]
+    extern fn get_in_the_bowl() {
+        assert!(1 + 2 == 3); //You get in the bowl
+    }
+
+}
