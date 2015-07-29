@@ -1,0 +1,14 @@
+[package]
+name = "shutdown_hooks"
+version = "0.0.0"
+authors = ["Cruz Julian Bishop <cruzjbishop@gmail.com>"]
+
+description = "Shutdown hooks for Rust, currently a wrapper around atexit. More features coming \"soon\""
+
+repository = "https://github.com/Techern/shutdown_hooks_rs"
+
+readme = "README.md"
+
+keywords = ["ffi", "shutdown", "stdlib", "std"]
+
+license = "MIT"
