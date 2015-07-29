@@ -1,9 +1,15 @@
 [package]
 name = "shutdown_hooks"
-version = "0.0.0"
+version = "0.0.1"
 authors = ["Cruz Julian Bishop <cruzjbishop@gmail.com>"]
 
-description = "Shutdown hooks for Rust, currently a wrapper around atexit. More features coming \"soon\""
+description = """
+Being tested, please do not use until 0.1.0 is released!
+
+Adds shutdown hook functionality to Rust. Currently just a wrapper around atexit()
+
+Removal of shutdown hooks is a planned feature, but has not yet been implemented.
+"""
 
 repository = "https://github.com/Techern/shutdown_hooks_rs"
 
