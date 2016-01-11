@@ -11,4 +11,4 @@ readme = "README.md"
 
 keywords = ["ffi", "shutdown", "stdlib", "std"]
 
-license = "MIT"
+license = "MIT OR Apache-2.0"
